@@ -1,1 +1,1 @@
-web: uvicorn verifier_api:app --host 0.0.0.0 --port $PORT
+web: python -m uvicorn verify_api:app --host 0.0.0.0 --port $PORT
